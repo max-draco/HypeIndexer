@@ -1,35 +1,50 @@
 # 🚀 HypeIndexer – Subgraph for Memecoin Launchpad  
 
-HypeIndexer is a high-performance **subgraph** built with **The Graph Protocol** to index key events from a **Memecoin**. It tracks on-chain data like **token creations, swaps, liquidity pool formations, and transfers**, making blockchain data **easily accessible** for analytics, dApps, and dashboards.  
+HypeIndexer is a **high-performance** subgraph built with **The Graph Protocol** to track key events from a **Memecoin**. It efficiently indexes **on-chain** data, including:  
+- **Token Creations**  
+- **Swaps**  
+- **Liquidity Pool Formations**  
+- **Transfers**  
+
+This subgraph provides **seamless access** to structured blockchain data, **enabling dApp developers, analysts, and traders** to interact with real-time blockchain events.  
 
 ---
 
-## 📌 Features  
+## 📌 Key Features  
 
-✅ **Indexes Key Events** – Tracks token creations, swaps, pools, and transfers.  
-✅ **Real-time Event Mapping** – Uses **AssemblyScript** for efficient event handling.  
-✅ **Optimized for Performance** – Ensures **fast** and **reliable** query responses.  
-✅ **Seamless Deployment** – Fully configured for **The Graph Hosted Service**.  
-✅ **Cloudflare Integration** – Ensures **secure & optimized** network performance.  
-✅ **Supports Analytics & Dashboards** – Fetch **historical** & **live** blockchain data.  
-
----
-
-## 🛠 Tech Stack  
-
-- 🚀 **The Graph Protocol** – Blockchain data indexing  
-- 🛠 **GraphQL** – Querying structured blockchain data  
-- ⚡ **AssemblyScript** – Smart contract event mappings  
-- 📌 **TypeScript** – Codebase structure  
-- 🔗 **Ethereum / EVM Chains** – Supports major blockchains  
-- 🌐 **Cloudflare** – Optimized security and performance  
-- 📦 **Webpack** – Code bundling and efficiency  
+✅ **Real time Data Indexing** – Tracks token creations, swaps, liquidity pools, and transfers instantly.  
+✅ **Optimized Performance** – Uses **AssemblyScript** mappings for fast and efficient event handling.  
+✅ **Advanced Querying** – Powered by **GraphQL**, allowing developers to fetch structured blockchain data quickly.  
+✅ **Cloudflare Security** – Protects APIs from DDoS attacks and enhances reliability.  
+✅ **Multi-Chain Support** – Works with **Ethereum and other EVM-compatible chains**.  
+✅ **Developer Friendly** – Provides **sample code** and an easy setup process.  
+✅ **Scalable Architecture** – Designed to support multiple blockchain networks efficiently.  
 
 ---
 
-## 🚀 Getting Started  
+## 📜 Table of Contents  
+1. [Installation Guide](#-installation-guide)  
+2. [Usage Instructions](#-usage-instructions)  
+3. [Tech Stack](#-tech-stack)  
+4. [Architecture Overview](#-architecture-overview)  
+5. [Example GraphQL Queries](#-example-graphql-queries)  
+6. [Sample Code](#-sample-code)  
+7. [Testing](#-testing)  
+8. [Deployment](#-deployment)  
+9. [Security Considerations](#-security-considerations)  
+10. [Contact & Support](mailto:info@muslih.tech)  
 
-### 1️⃣ Clone the Repository  
+---
+
+## 🔧 Installation Guide  
+
+### **1️⃣ Prerequisites**  
+Ensure you have the following installed:  
+- **Node.js** (>= 16.x)  
+- **Yarn** (latest version)  
+- **Graph CLI** (`npm install -g @graphprotocol/graph-cli`)  
+
+### **2️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/HypeIndexer.git
+git clone https://github.com/max-draco/HypeIndexer.git
 cd HypeIndexer

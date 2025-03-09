@@ -1,0 +1,25 @@
+specVersion: 0.0.4
+description: "Subgraph for Memecoin Launchpad"
+repository: "https://github.com/yourgithub/launchgraphx"
+dataSources:
+  - kind: ethereum/contract
+    name: Launchpad
+    network: polygon
+    source:
+      address: "0xYourLaunchpadAddress"
+      abi: Launchpad
+      startBlock: 12345678
+    mapping:
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Token
+        - Swap
+      abis:
+        - name: Launchpad
+          file: ./abis/Launchpad.json
+      eventHandlers:
+        - event: TokenCreated(indexed address, string, string, uint8, uint256)
+          handler: handleTokenCreated
+        - event: Swap(indexed address, uint256, uint256, uint256, uint256)
+          handler: handleSwap

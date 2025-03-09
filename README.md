@@ -1,6 +1,6 @@
 # 🚀 HypeIndexer – Subgraph for Memecoin Launchpad  
 
-HypeIndexer is a high-performance **subgraph** built with **The Graph Protocol** to index key events from a **Memecoin Launchpad**. It tracks on-chain data like **token creations, swaps, liquidity pool formations, and transfers**, making blockchain data **easily accessible** for analytics, dApps, and dashboards.  
+HypeIndexer is a high-performance **subgraph** built with **The Graph Protocol** to index key events from a **Memecoin**. It tracks on-chain data like **token creations, swaps, liquidity pool formations, and transfers**, making blockchain data **easily accessible** for analytics, dApps, and dashboards.  
 
 ---
 

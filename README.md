@@ -21,20 +21,7 @@ This subgraph provides **seamless access** to structured blockchain data, **enab
 ✅ **Scalable Architecture** – Designed to support multiple blockchain networks efficiently.  
 
 ---
-
-## 📜 Table of Contents  
-1. [Installation Guide](#-installation-guide)  
-2. [Usage Instructions](#-usage-instructions)  
-3. [Tech Stack](#-tech-stack)  
-4. [Architecture Overview](#-architecture-overview)  
-5. [Example GraphQL Queries](#-example-graphql-queries)  
-6. [Sample Code](#-sample-code)  
-7. [Testing](#-testing)  
-8. [Deployment](#-deployment)  
-9. [Security Considerations](#-security-considerations)  
-10. [Contact & Support](mailto:info@muslih.tech)  
-
----
+[Contact & Support](mailto:info@muslih.tech)  
 
 ## 🔧 Installation Guide  
 
